@@ -154,3 +154,5 @@ document.addEventListener('click', (e) => {
 });
 addEventListener('popstate', route);
 api('/me').then((d) => { me = d.user; }).catch(() => {}).finally(route);
+
+if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
