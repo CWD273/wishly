@@ -10,4 +10,4 @@ run_worker_first = ["/api/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "wishly"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "df21ee03-188e-4bf7-a655-948dd884a595"
